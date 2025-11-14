@@ -1,0 +1,37 @@
+# Environment & Config
+app/config.php
+ngrok.yml
+*.env
+.env.local
+
+# Storage (uploaded files)
+storage/files/*
+!storage/files/.gitkeep
+
+# Sensitive files
+*.key
+*.pem
+*.sql
+database.db
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

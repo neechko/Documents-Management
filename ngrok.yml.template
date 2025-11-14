@@ -1,0 +1,17 @@
+# ngrok.yml.template
+# Copy this file to %USERPROFILE%\.ngrok2\ngrok.yml and replace <YOUR_NGROK_AUTHTOKEN>
+# Do NOT commit your authtoken into the repository.
+
+# Example ngrok config for the document management app
+authtoken: <YOUR_NGROK_AUTHTOKEN>
+
+tunnels:
+  document-management:
+    proto: http
+    addr: 80
+    # Optional: require HTTP basic auth (format: username:password)
+    # auth: "admin:strongpass"
+
+# Notes:
+# - For a different local port, change addr to 8080 (or your port).
+# - To run the tunnel: `ngrok start document-management` or use the provided script
