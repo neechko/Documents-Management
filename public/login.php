@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
 
         <div class="mt-8 text-center">
-            <p class="text-slate-400 text-sm">© 2025 Sistem Pengurusan Dokumen</p>
+            <p class="text-slate-400 text-sm">© 2025 Sistem Pengurusan Dokumen | Create by Mario</p>
         </div>
     </div>
 </body>
